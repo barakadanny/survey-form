@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-inline: 1em;
+    text-transform: capitalize;
+}
+.container{
+    max-width: 650px;
+    padding: 1em;
+}
+input, select, textarea{
+    border: 0 !important;
+    background-color: rgba(243, 243, 243, 0.37) !important;
+}
+input:focus,
+select:focus,
+textarea:focus{
+    border-color: 1px solid black !important;
+    box-shadow: 0 1px 1px rgba(12, 45, 70, 0.5) inset, 0 0 8px rgba(12, 45, 70, 0.5) !important;
+    outline: 0 none !important;
+}
+h1{
+    color: rgb(5, 47, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 23, 109);
+}
+h4{
+    font-family: cursive;
+}
+button{
+    text-transform: uppercase;
+}
